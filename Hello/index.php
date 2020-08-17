@@ -1,4 +1,15 @@
+<?php
 
+session_start();
+
+if(isset($_POST["btnok"])){
+    $_SESSION["who"]=$_POST["txtUserName"];
+    header("location:hello.php");
+    }
+else{    
+    echo "first";
+    }
+?>
 
 
 <!DOCTYPE html>
@@ -12,7 +23,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form method="POST" action="hello.php">
+    <form method="POST" action="">
     your name:
     <input type="text" name="txtUserName">   
     <!-- <input type="text" name="txtUserNick">    -->
