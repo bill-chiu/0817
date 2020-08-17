@@ -5,6 +5,6 @@
 </head>
 <body>
 Hello! PHP
-<HR>今天是： <?php echo date("Y-m-d"); ?>
+<HR>今天是： <?php echo date("Y-y-M-m-D-d"); ?>
 </body>
 </html>
