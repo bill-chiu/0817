@@ -8,4 +8,4 @@ $pos=strpos($s,"12",2);
 $result=str_replace("12","-",$s);
 
 echo $result;
-?>aaa
+?>
