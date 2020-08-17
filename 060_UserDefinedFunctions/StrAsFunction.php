@@ -1,14 +1,19 @@
 <?php
 
-function test($i) {
-	return $i + 1;
+function test10($i) {
+	return $i + 10;
+}
+
+function test100($i) {
+	return $i + 100;
 }
 
 // $x = 1;
-// echo test($x);
+// echo test10($x);
 
-$x = 2;
-$p = "test";
-echo $p($x);
+$x = "test10";
+$p = "test100";
+$y = 2;
+echo $p($x($y));
 
 ?>

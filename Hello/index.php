@@ -5,6 +5,9 @@ session_start();
 if(isset($_POST["btnok"])){
     $_SESSION["who"]=$_POST["txtUserName"];
     header("location:hello.php");
+
+    // $_SESSION["who"]=$_POST["btnok"];
+    exit(0);
     }
 else{    
     echo "first";
