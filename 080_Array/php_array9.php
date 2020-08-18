@@ -1,10 +1,15 @@
 <?php
 function cmp($a, $b)
 {
-    if ($a == $b) {
-        return 0;
-    }
-    return ($a < $b) ? -1 : 1;
+    // if ($a == $b) {
+    //     return 0;
+    // }
+    // return ($a < $b) ? -1 : 1;
+
+
+    // echo $b."=>".$a."<br>";
+
+    return $a-$b;
 }
 
 $a = array(3, 2, 5, 6, 1);

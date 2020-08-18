@@ -4,7 +4,18 @@ $bloodType[] = 'B';
 $bloodType[] = 'AB';
 $bloodType[] = 'O';
 
-for ($i = 0; $i <= 3; $i++) {
-	echo $bloodType[$i] . "<br />";
-}
+
+
+// for ($i = 0; $i <= 3; $i++) {
+// 	echo $bloodType[$i] . "<br />";
+// }
+
 ?>
+
+<pre>
+<?php
+
+print_r($bloodType);
+
+?>
+</pre>
